@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Countdown Timer</title>
+		<meta charset="utf-8">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+		<style>
+			.container {
+   				height: 100vh;
+			}
+
+			.time{
+				
+				width: 500px;
+			}
+
+			.background-body {
+				background: linear-gradient(#bdc3c7, #2c3e50);
+			}
+
+			.background-box{
+				background: linear-gradient(#bdc3c7, #bdc3c7);
+			}
+		</style>
+	</head>
+
+	
+	<body class="background-body">
+
+		<div class="container d-flex flex-column justify-content-center align-items-center">
+
+			<div class="shadow-lg p-3 mb-5 bg-body rounded background-box " >
+
+				<h1 class="display1 mt-3 mb-5 text-center">CountDown Timer</h1>
+
+				<div class="clock-input input-group d-flex justify-content-center mb-3" >
+					<input type="date" class="input-text" id="data-futura" >
+					<button class="btn btn-outline-dark" type="button" onclick="gettingTime()">Enviar</button>
+				</div>
+				
+				<div class="d-flex flex-row justify-content-between align-items-center time" >
+					<div class="p-3">
+						<p class="fw-bold">Days:</p>
+						<p class="days"></p>
+					</div>
+
+					<div class="p-3">
+						<p class="fw-bold">Hours:</p>
+						<p class="hours"></p>
+					</div>
+
+					<div class="p-3">
+						<p class="fw-bold">Minutes:</p>
+						<p class="minutes"></p>
+					</div>
+
+					<div class="p-3">
+						<p class="fw-bold">Seconds:</p>
+						<p class="seconds"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script src="app.js"></script>
+	
+</html>

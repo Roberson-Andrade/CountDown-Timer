@@ -5,3 +5,5 @@ Trata-se do meu primeiro projeto, realizado exclusivamente com o intuito de apre
   
 Além de html, css e Javascript há um pouco de Bootstrap v.5.0 para facilitar a criação da parte visual e focar mais na lógica de programação do App.
 
+Uma amostra visual da aplicação:
+![alt text](https://github.com/Roberson-Andrade/CountDown-Timer/blob/main/Visual-do-app.PNG)
